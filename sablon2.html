@@ -11,13 +11,36 @@
                 margin: 0px;
                 padding: 0px;
             }
+            #sayfa{
+                width: 465px;
+                min-height: 600px;
+                border-style: solid;
+                border-width: 0px;
+                margin: auto;
+            }
+            /*Banner*/
+            #banner{
+                width: 465px;
+                height: 70px;
+                border-style:dotted;
+                border-width: 1px;
+                background-color:darkmagenta;
+                margin: auto;
+            }
+            #isim{
+                color:aliceblue;
+                font-style: italic;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                top: 25px;
+            }
             /*AnaMenü*/
             #anamenu{
                 width: 465px;
                 height: 50px;
-                border-style: dotted;
-                border-width: 1px;
-                background-color:plum;
+                border-style: none;
+                border-width: 0px;
+                background-color:darkmagenta;
                 margin: auto;
             }
             #anamenu ul{
@@ -28,8 +51,8 @@
                 border-style: solid;
                 border-width: 3px;
                 border-radius: 8px;
-                border-color: blueviolet;
-                background-color:lavenderblush;
+                border-color: darkmagenta;
+                background-color:darkmagenta;
                 float: left;
                 padding: 4px;
                 position: relative;
@@ -43,13 +66,13 @@
                 font-size: 12px;
             }
             #anamenu ul a:link{
-                color:indigo;
+                color:aliceblue;
             }
             #anamenu ul a:visited{
-                color:darkmagenta;
+                color:aliceblue;
             }
             #anamenu ul a:hover{
-                color:orchid;
+                color:lightgray;
                 text-decoration: underline;
             }
 
@@ -57,7 +80,10 @@
     </head>
     <body>
         <div id="sayfa">
-            <header id="banner"></header>
+            <header id="banner">
+                <h2 id="isim">Nisanur Yaldız</h2>
+            </header>
+            
             <nav id="anamenu">
                 <ul>
                     <li><a href="index.html">AnaSayfa</a></li>
@@ -67,8 +93,14 @@
                     <li><a href="iletisim.html">İletişim</a></li>
                 </ul>
             </nav>
-            <article id="içerik"></article>
-            <footer id="altmenu"></footer>
+
+            <article id="içerik">
+
+            </article>
+
+            <footer id="altmenu">
+
+            </footer>
         </div>
     </body>
 </html>
