@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head lang="tr">
+        <meta charset="utf-8">
+        <title>Nisanur Yaldız Resmi Web Sitesi</title>
+        <meta name="description" content="Nisanur Yaldız Resmi Web Sitesi">
+        <meta name="keywords" content="ankara, başkent, gezilecek yerler, ">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            /*Banner*/
+            #banner{
+                height: 70px;
+                border-style:dashed;
+                border-width: 0px 0px 3px 0px;
+                background-color:lightpink;
+            }
+            #isim{
+                color:black;
+                font-style: italic;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                top: 10px;
+            }
+            /*AnaMenü*/
+            #anamenu{
+                height: 55px;
+                border-style: none;
+                border-width: 0px;
+                background-color:lightpink;
+                margin:auto;
+            }
+            #anamenu ul{
+                list-style-type: none;
+                align-items: center;
+                justify-content: center;
+
+            }
+            #anamenu ul li{
+                width: 80px;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 8px;
+                border-color: lightpink;
+                background-color:lightpink;
+                float: left;
+                padding: 4px;
+                position: relative;
+                top: 10px;
+                text-align: center;
+            }
+            #anamenu ul a{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            #anamenu ul a:link{
+                color:aliceblue;
+            }
+            #anamenu ul a:visited{
+                color:aliceblue;
+            }
+            #anamenu ul a:hover{
+                color:lightgray;
+                text-decoration: underline;
+            }
+            /*İçerik Bölümü*/
+            #içerik{
+                background-color:lightpink;
+                border-width: 3px 0px 0px 0px;
+                border-style: dashed;
+                display: block; /*öğelerin doğal akışta gelmesini sğlar*/
+                position: relative;
+                overflow-y: auto;
+                height: 520px;
+            }
+            #içerik h1{
+                text-align: center;
+                margin-top: 30px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+            }
+            #içerik p{
+                margin-top: 15px;
+                text-indent: 15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-style: oblique;
+                font-size: 20px;
+                margin-left: 25px;
+            }
+            #içerik img{
+                width: 450px;
+                height: auto;
+                margin-right: 130px;
+                margin-top: 1px;
+            }
+            #içerik h2{
+                margin-left: 30px;
+                margin-top: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+            }
+            
+            /*Altmenu bölümü*/
+            #altmenu{
+                height: 80px;
+                background-color: lightpink;
+                border-style: dashed;
+                border-width: 3px 0px 0px 0px;
+            }
+            #altmenu ul img{
+                width: 50px;
+                height: 50px;
+                float: left;
+                position: relative;
+                padding: 4px;
+                top: 10px;
+                border-radius: 30px;
+                background-color: lightpink;
+            }
+            #altmenu ul {
+                list-style-type: none;
+                display: flex;
+                padding: 0px;
+                background-color: lightpink;
+                align-items: center;
+                justify-content: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="sayfa">
+            <header id="banner">
+                <h1 id="isim">Nisanur Yaldız</h1>
+            </header>
+            
+            <nav id="anamenu">
+                <ul>
+                    <li><a href="index.html">AnaSayfa</a></li>
+                    <li><a href="cv.html">Özgeçmiş</a></li>
+                    <li><a href="ankara.html">Ankara</a></li>
+                    <li><a href="ankaragücü.html">AnkaraGücü</a></li>
+                    <li><a href="müzik.html">Müzik</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+
+            <article id="içerik">
+                <h1>Başkent:ANKARA</h1>
+                <p>Ankara, 13 Ekim 1923'te Türkiye'nin başkenti ilan edilmiştir. İç Anadolu Bölgesi'nde<br> yer alır ve yaklaşık 5,5 milyon
+                    nüfusu ile İstanbul'dan sonra gelen ikinci büyük şehirdir.<br> Cumhuriyetin ilk yıllarında ekonomisi
+                    tarım ve hayvancılığa dayanan şehrin günümüzde <br> ekonomik etkinliği büyük oranda ticaret ve hizmet 
+                    sektörüne dayanmaktadır. Ankara <br>karasal iklime sahiptir. Şehir merkezininn dışındaki il
+                    topraklarının büyük bölümü, tahıl <br>üretiminin yoğun oluğu platolardan oluşmaktadır. İlin adını taşıyan
+                    ankara keçisi, tav-<br>şanı, atı ve kedisi dünya çapında bilinir. Yerel yemeklerden Ankara tavası, Beypazarı<br>
+                    kurusu ve Kızılcahamam ve
+                    beypazarı madeni ülke çapında bilinen lezzetlerdendir.
+                </p>
+                <h2>Gezilecek Yerler</h2>
+                <p>
+                    <ul>
+                        <li>Anıtkabir</li>
+                        <li>Anadolu Medeniyetleri Müzesi</li>
+                        <li>Hamamönü</li>
+                        <li>Hacı Bayram Veli Camii</li>
+                        <li>Kuğulu Park</li>
+                        <li>Ulucanlar Ceza Evi</li>
+                        <li>Ankara Kalesi</li>
+                    </ul>
+                </p>
+            </article>
+            <aside id="yanmenü"></aside>
+
+            <footer id="altmenu">
+                <ul>
+                    <li><a href="https://instagram.com"><img src="resimmlerr/instagramlogo.png"></a></li>
+                    <li><a href="https://WhatsApp.com"><img src="resimmlerr/whatsapp.png"></a></li>
+                    <li><a href="https://spotify.com"><img src="resimmlerr/spotify.png"></a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
