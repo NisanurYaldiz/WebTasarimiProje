@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head lang="tr">
+        <meta charset="utf-8">
+        <title>Nisanur Yaldız Resmi Web Sitesi</title>
+        <meta name="description" content="Nisanur Yaldız Resmi Web Sitesi">
+        <meta name="keywords" content="nisanur yaldız,nisa nur yaldız,yaldız,hakkında,bilgiler
+        ,cv,özgeçmiş,">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            /*Banner*/
+            #banner{
+                height: 70px;
+                border-style:dashed;
+                border-width: 0px 0px 3px 0px;
+                background-color:lightpink;
+            }
+            #isim{
+                color:black;
+                font-style: italic;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                top: 10px;
+            }
+            /*AnaMenü*/
+            #anamenu{
+                height: 55px;
+                border-style: none;
+                border-width: 0px;
+                background-color:lightpink;
+                margin:auto;
+            }
+            #anamenu ul{
+                list-style-type: none;
+                align-items: center;
+                justify-content: center;
+
+            }
+            #anamenu ul li{
+                width: 80px;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 8px;
+                border-color: lightpink;
+                background-color:lightpink;
+                float: left;
+                padding: 4px;
+                position: relative;
+                top: 10px;
+                text-align: center;
+            }
+            #anamenu ul a{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            #anamenu ul a:link{
+                color:aliceblue;
+            }
+            #anamenu ul a:visited{
+                color:aliceblue;
+            }
+            #anamenu ul a:hover{
+                color:lightgray;
+                text-decoration: underline;
+            }
+            /*İçerik Bölümü*/
+            #içerik{
+                height: 520px;
+                background-color:lightpink;
+                border-width: 3px 0px 0px 0px;
+                border-style: dashed;
+                display: block; /*öğelerin doğal akışta gelmesini sğlar*/
+                position: relative;
+                overflow-y: auto;
+                max-height: 520px;
+                padding: 20px;
+                flex:2;
+            }
+            .kapsayıcı{
+                display:flex;
+                gap:0px;
+                align-items: flex-start;
+            }
+            #yanmenu{
+                flex:1;
+                background-color: lightpink;
+                border-style: dashed;
+                border-width: 3px 0px 0px 0px;
+            }
+            #yanmenu img{
+                height: 560px;
+                width: auto;
+                margin-left: 50px;
+            }
+            #içerik h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+                text-align: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            #içerik h4{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+                margin-left: 50px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            #içerik p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-style: oblique;
+                margin-bottom: 15px;
+                margin-left: 20px;
+                
+            }
+            #içerik table td{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-style: oblique;
+                margin-top: 30px;
+                padding-left: 20px;
+            }
+            /*Altmenu bölümü*/
+            #altmenu{
+                height: 80px;
+                background-color: lightpink;
+                border-style: dashed;
+                border-width: 3px 0px 0px 0px;
+            }
+            #altmenu ul img{
+                width: 50px;
+                height: 50px;
+                float: left;
+                position: relative;
+                padding: 4px;
+                top: 10px;
+                border-radius: 30px;
+                background-color: lightpink;
+            }
+            #altmenu ul {
+                list-style-type: none;
+                display: flex;
+                padding: 0px;
+                background-color: lightpink;
+                align-items: center;
+                justify-content: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="sayfa">
+            <header id="banner">
+                <h1 id="isim">Nisanur Yaldız</h1>
+            </header>
+            
+            <nav id="anamenu">
+                <ul>
+                    <li><a href="index.html">AnaSayfa</a></li>
+                    <li><a href="cv.html">Özgeçmiş</a></li>
+                    <li><a href="ankara.html">Ankara</a></li>
+                    <li><a href="ankaragücü.html">AnkaraGücü</a></li>
+                    <li><a href="müzik.html">Müzik</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="kapsayıcı"> 
+            <article id="içerik">
+                <h1>MKE AnkaraGücü</h1>
+                <p>MKE Ankaragücü, Ankara'nın 2.Lig'de oynayan futbol kulübüdür. Takımın 1 Türkiye
+                    Futbol Şampiyonası, 2 Türkiye Kupası ve 1 Süper Kupası şampiyonluğu vardır.
+                </p>
+                <table>
+                    <tr>
+                        <th>Tam Adı</th>
+                        <td>Makine Kimya Endüstrisi Ankaragücü Profesyonel Futbol Takımı</td>
+                    </tr>
+                    <tr>
+                        <th>Renkler</th>
+                        <td>Sarı-Lacivert</td>
+                    </tr>
+                    <tr>
+                        <th>Kuruluş</th>
+                        <td>31 Ağustos 1910</td>
+                    </tr>
+                    <tr>
+                        <th>Stadyum</th>
+                        <td>Eryaman Stadyumu</td>
+                    </tr>
+                    <tr>
+                        <th>Başkan</th>
+                        <td>İlhami Aparslan</td>
+                    </tr>
+                    <tr>
+                        <th>Teknik Direktör</th>
+                        <td>Recep Karatepe</td>
+                    </tr>
+                </table>
+                <h4>Güncel Kadro</h4>
+                <table>
+                    <tr>
+                        <td>No 1 Eren Ersu</td>
+                        <td>No 21 Dorin Rotaiu</td>
+                    </tr>
+                    <tr>
+                        <td>No 3 Halil İbrahim Pehlivan</td>
+                        <td>No 23 Ali Kaan Güneren</td>
+                    </tr>
+                    <tr>
+                        <td>No 4 Mert Çetin</td>
+                        <td>No 24 Özgür Aktaş</td>
+                    </tr>
+                    <tr>
+                        <td>No 5 Diogo Coelho</td>
+                        <td>No 25 Ertaç Özbir</td>
+                    </tr>
+                    <tr>
+                        <td>No 6 Cem Türkmen</td>
+                        <td>No 26 Nico Schulz</td>
+                    </tr>
+                    <tr>
+                        <td>No 8 Owusu Kwobusu</td>
+                        <td>No 28 Fatih Demir</td>
+                    </tr>
+                    <tr>
+                        <td>No 9 Riad Bajıc</td>
+                        <td>No 29 Renaldo Cephas</td>
+                    </tr>
+                    <tr>
+                        <td>No 10 Michal Rakoczy</td>
+                        <td>No 30 Mesud Kesik</td>
+                    </tr>
+                    <tr>
+                        <td>No 11 Dalcio</td>
+                        <td>No 35 Hasan Nazarlı</td>
+                    </tr>
+                    <tr>
+                        <td>No 14 Kevın Varga</td>
+                        <td>No 40 Yusuf Emre Gültekin</td>
+                    </tr>
+                    <tr>
+                        <td>No 16 İsmail Çokçalış</td>
+                        <td>No 70 Eness Tepecik</td>
+                    </tr>
+                    <tr>
+                        <td>No 17 Renat Dadaşov</td>
+                        <td>No 77 Hayrullah Bilazer</td>
+                    </tr>
+                    <tr>
+                        <td>No 19 Sirozhiddin Astanakulov</td>
+                        <td>No 88 Osman Çelik</td>
+                    </tr>
+                    <tr>
+                        <td>No 20 Riccardo Saponara</td>
+                        <td>No 91 Görkem Cihan</td>
+                    </tr>
+                    <tr>
+                        <td>No 21 Mahmut Tekdemir</td>
+                        <td>No 94 Gaetan Laura</td>
+                    </tr>
+                </table>
+      
+            </article>
+            <aside id="yanmenu">
+                <img src="resimmlerr/ankaragücü2.jpg">
+            </aside>
+            </div>
+            <footer id="altmenu">
+                <ul>
+                    <li><a href="https://instagram.com"><img src="resimmlerr/instagramlogo.png"></a></li>
+                    <li><a href="https://WhatsApp.com"><img src="resimmlerr/whatsapp.png"></a></li>
+                    <li><a href="https://spotify.com"><img src="resimmlerr/spotify.png"></a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
