@@ -74,6 +74,37 @@
                 background-color:lightpink;
                 border-width: 3px 0px 0px 0px;
                 border-style: dashed;
+                display: block; /*öğelerin doğal akışta gelmesini sğlar*/
+                position: relative;
+                overflow-y: auto;
+                max-height: 520px;
+                padding-bottom: 20px;
+            }
+            #içerik h1{
+                text-align: center;
+                margin-top: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+            }
+            #içerik p{
+                margin-top: 15px;
+                margin-left: 15px;
+                margin-bottom: 15px;
+                text-indent: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-style: oblique;
+                size:15px;
+            }
+            #içerik img{
+                align-items: flex-start;
+                margin: 20px;
+                float: left;
+                height: 390px;
+                width: auto;
+            }
+            #içerik video{
+                height: 390px;
+                width: auto;
             }
             /*Altmenu bölümü*/
             #altmenu{
@@ -121,7 +152,41 @@
             </nav>
 
             <article id="içerik">
-                <p1></p1>
+                <h1>Ben Kimim?</h1>
+                <p>Ben Nisanur Yaldız. 1 Nisan 2006 tarihinde Erzurum'da doğdum. Şuan Ankara'da ikametgah
+                    ediyorum. 3 kardeşin en küçüğüyüm. Sakarya Üniversitesinde Bilgisayar Mühendisliği
+                    1.sınıf öğrencisiyim.
+                </p>
+                <p>En büyük bağımlılığım müzik dinlemek, her an müzik dinleyebilirim: Odamı toplarken, bulaşık yıkarken, yemek yerken,
+                    temizlik yaparken, ders çalışırken, yürürken...Kısacası her an. Hem Türkçe hem yabancı dilde şarkı dinlerim. Normalde çok
+                    dinlemediğim tarzda şarkıları dinlerken o tarzda
+                    en popüler olan herkesin sevdiği şarkıları dinlerim. Diskografisini sevdiğim çok fazla şarkısını dinlediğim
+                    şarkıcılar da elbet var.
+                </p>
+                <p>2022'den beri sokaktan sahiplendiğim bir kedim var: Yulah. Galerimin %80'i onun fotoğraflarından 
+                    oluşuyor. Bazen tatlı bazen gıcık ve kesinlikle temas sevmeyen bir kedidir.Onu sevmeye çalıştığımda hiç hoşuna
+                    gitmiyor. En çok annemi seviyor, sürekli onun yanında olmak isteyip onu takip eder. Beni de oyun arkadaşı olarak seviyor. 
+                </p>
+                <img src="resimmlerr/yulaf2.jpeg">
+                <img src="resimmlerr/yulaf4.jpeg">
+                <img src="resimmlerr/yulaf3.jpeg">
+                <img src="resimmlerr/yulaf1.jpeg">
+                <img src="resimmlerr/yulaf5.jpeg">
+                <img src="resimmlerr/yulaf6.jpeg">
+                <img src="resimmlerr/yulaf7.jpeg">
+                <img src="resimmlerr/yulaf8.jpeg">
+                <img src="resimmlerr/yulaf10.jpeg">
+                <br>
+                <video height="450px" width="auto" autoplay muted loop>
+                    <source src="resimmlerr/yulaf1.mp4">
+                </video>
+                <video height="390px" width="auto" autoplay muted loop>
+                    <source src="resimmlerr/yulaf2.mp4">
+                </video>
+            
+                
+
+
             </article>
 
             <footer id="altmenu">

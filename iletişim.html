@@ -74,7 +74,21 @@
                 background-color:lightpink;
                 border-width: 3px 0px 0px 0px;
                 border-style: dashed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
+            #tablo tr td{
+                border-style: solid;
+                
+            }
+            #içerik h3{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+                margin-top: 19px;
+                margin-left: 20px;
+            }
+            
             /*Altmenu bölümü*/
             #altmenu{
                 height: 80px;
@@ -121,7 +135,81 @@
             </nav>
 
             <article id="içerik">
-                <p1></p1>
+                <h3>Seni Tanıyayım...</h3>
+                <form action="actionpage.php" id="form">
+                    <table id="tablo">
+                        <tr>
+                            <th>Ad Soyad</th>
+                            <td><input type="text" name="adsoyad" size="12" required autofocus></td>
+                        </tr>
+                        <tr>
+                            <th>Cinsiyet</th>
+                            <td>
+                                <input type="radio" name="cinsiyet" value="Kadın"> Kadın
+                                <input type="radio" name="cinsiyet" value="Erkek"> Erkek
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>E-mail</th>
+                            <td><input type="email" name="email" size="12" maxlength="30" required></td>
+                        </tr>
+                        <tr>
+                            <th>Doğum Tarihiniz</th>
+                            <td><input type="date" name="takvim" required></td>
+                        </tr>
+                        <tr>
+                            <th>Kaç Kardeşsiniz</th>
+                            <td><input type="number" name="sayı" size="12" required></td>
+                        </tr>
+                        <tr>
+                            <th>Telefon No.</th>
+                            <td><input type="tel" name="telefonno" size="12" required></td>
+                        </tr>
+                        <tr>
+                            <th>Web Siteniz</th>
+                            <td><input type="url" name="site" size="12"></td>
+                        </tr>
+                        <tr>
+                            <th>İlgilendiğin Alan</th>
+                            <td>
+                                <input type="checkbox" name="sinema">Sinema
+                                <input type="checkbox" name="müzik">Müzik 
+                                <input type="checkbox" name="spor">Spor
+                                <input type="checkbox" name="oyun">Oyun
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Burcun</th>
+                            <td>
+                                <select name="burclar">
+                                    <option>Koç</option>
+                                    <option>Boğa</option>
+                                    <option>İkizler</option>
+                                    <option>Akrep</option>
+                                    <option>Yay</option>
+                                    <option>Başak</option>
+                                    <option>Yengeç</option>
+                                    <option>Aslan</option>
+                                    <option>Oğlak</option>
+                                    <option>Terazi</option>
+                                    <option>Balık</option>
+                                    <option>Kova</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Bana iletmek istediğin bir şey var mı?</th>
+                            <td><textarea name="ileti" row=3 cols="50" placeholder="Bir ileti gir..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input type="submit" name="submit" value="Onayla">
+                                <input type="reset" name="reset" value="Temizle">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
             </article>
 
             <footer id="altmenu">
